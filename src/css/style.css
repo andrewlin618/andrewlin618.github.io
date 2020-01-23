@@ -1,0 +1,68 @@
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0px;
+  min-height: 100vh;
+  background-image: url('../assets/images/bg.jpg');
+  background-size: cover;
+  color: white;
+}
+
+main {
+  min-height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+#my-photo {
+  position: absolute;
+  bottom: 0;
+}
+
+.grow-text{
+  transition: all .3s ease-in-out;
+}
+
+.grow-text:hover{
+  /* transform: scale(1.3); */
+  margin-left:100px;
+}
+
+.grow-img{
+  transition: all .5s ease-in-out;
+}
+
+.grow-img:hover {
+  margin-bottom: 0px;
+  transform: scale(1.2);
+}
+
+a {
+  font-weight: bold;
+}
+
+a:link {
+  COLOR: rgb(206, 110, 0);
+  TEXT-DECORATION: none;
+}
+
+a:visited {
+  COLOR: orange;
+  TEXT-DECORATION: none;
+}
+
+a:active {
+  COLOR: rgb(206, 110, 0);
+  TEXT-DECORATION: none
+}
+
+a:hover {
+  COLOR: rgb(206, 110, 0)n;
+  TEXT-DECORATION: none;
+  transform: scale(1.2);
+}
