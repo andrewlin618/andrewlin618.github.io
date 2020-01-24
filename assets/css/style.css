@@ -7,7 +7,7 @@ body {
   margin-right: 0%;
   padding: 0px;
   min-height: 100vh;
-  background-image: url('../assets/images/bg.jpg');
+  background-image: url('../images/background.jpg');
   background-size: cover;
   color: white;
 }
@@ -44,6 +44,10 @@ main {
 
 a {
   font-weight: bold;
+}
+
+p{
+  margin-bottom: 0px;
 }
 
 a:link {
