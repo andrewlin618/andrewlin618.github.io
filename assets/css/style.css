@@ -74,3 +74,9 @@ a:hover {
 #container{
   min-height:100vh;
 }
+
+.btn-group{
+  position: fixed;
+  top: 0px;
+  /* opacity: 0.5; */
+}
