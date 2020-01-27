@@ -23,29 +23,28 @@ p {
   margin-bottom: 0px;
 }
 
+.btn{
+  font-weight: 500;
+}
+
 a {
   font-weight: bold;
 }
 
 a:link {
   COLOR: orange;
-  TEXT-DECORATION: none;
 }
 
 a:visited {
   COLOR: orange;
-  TEXT-DECORATION: none;
 }
 
 a:active {
   COLOR: orange;
-  TEXT-DECORATION: none
 }
 
 a:hover {
   COLOR: rgb(255, 94, 0);
-  TEXT-DECORATION: none;
-  transform: scale(1.2);
 }
 
 .row{
@@ -59,6 +58,10 @@ a:hover {
 
 .br2{
   display: none;
+}
+
+#about-me-page > h5 > a{
+  font-size: 1.5rem;
 }
 
 #my-photo {
