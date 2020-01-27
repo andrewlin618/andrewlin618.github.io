@@ -17,6 +17,7 @@ $("#my-photo").click(function () {
     $("#btn1").css("color", "white");
     $("#btn2").css("color", "white");
     $("#btn3").css("color", "white");
+    $("#btn4").css("color", "white");
 
     switch (index) {
         case 0:
@@ -36,7 +37,7 @@ $("#my-photo").click(function () {
                 $("#launch-page").fadeIn(500);
             });
             break;
-        case 3:
+        case 4:
             $("#resume-page").fadeOut(200, function () {
                 $("#launch-page").fadeIn(500);
             });
