@@ -24,29 +24,11 @@ main {
   bottom: 0;
 }
 
-.grow-text{
-  transition: all .3s ease-in-out;
-}
-
-.grow-text:hover{
-  /* transform: scale(1.3); */
-  margin-left:50px;
-}
-
-.grow-img{
-  transition: all .3s ease-in-out;
-}
-
-.grow-img:hover {
-  margin-bottom: 0px;
-  transform: scale(1.2);
-}
-
 a {
   font-weight: bold;
 }
 
-p{
+p {
   margin-bottom: 0px;
 }
 
@@ -71,6 +53,59 @@ a:hover {
   transform: scale(1.2);
 }
 
-#container{
-  min-height:80vh;
+#resume {
+  display: none;
+}
+
+#resume-text1{
+  display: none;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  .grow-text {
+    transition: all .3s ease-in-out;
+  }
+  
+  .grow-text:hover {
+    /* transform: scale(1.3); */
+    margin-left: 50px;
+  }
+  
+  .grow-img {
+    transition: all .3s ease-in-out;
+  }
+  
+  .grow-img:hover {
+    margin-bottom: 0px;
+    transform: scale(1.2);
+  }
+
+  #container {
+    min-height: 80vh;
+  }
+
+  #welcome {
+    font-size: 100px;
+  }
+
+  #resume {
+    display: inline-block;
+  }
+
+  #resume-text1{
+    display: inline;
+  }
+
+  #resume-text2{
+    display: none;
+  }
+
+  .br1 {
+    display: none;
+  }
+
+  #instruction{
+    display: none;
+  }
 }

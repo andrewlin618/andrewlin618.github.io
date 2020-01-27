@@ -121,6 +121,7 @@ $("#btn3").click(function () {
     $("#btn1").css("color", "white");
     $("#btn2").css("color", "white");
     $("#btn3").css("color", "orange");
+    $("#btn4").css("color", "white");
 
     switch (index) {
         case 0:

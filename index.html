@@ -14,9 +14,9 @@
 
 <body>
     <main class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6">
             <!-- Buttons -->
-            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <div class="btn-group" role="group" aria-label="Basic example">
                 <button id="btn1" type="button" class="btn btn-dark d-none">About Me</button>
                 <button id="btn2" type="button" class="btn btn-dark d-none">Portfolio</button>
                 <button id="btn3" type="button" class="btn btn-dark d-none">Contact</button>
@@ -29,7 +29,8 @@
                 <!-- Launch page -->
                 <div id="launch-page" style="display: none;">
                     <br><br><br><br><br>
-                    <h1 class="display-1 grow-text" style="font-weight: bold;">WELCOME TO MY HOMEPAGE</h1>
+                    <h1 id="welcome" class="grow-text" style="font-weight: bold;">WELCOME TO MY HOMEPAGE</h1>
+                    <h5 id="instruction">(Better user experience on laptop)</h5>
                 </div>
 
                 <!-- About me page: -->
@@ -74,7 +75,7 @@
                             href="https://drive.google.com/file/d/1S-CZ8jpS5vzugmlLuWagH3NZYdcv1X4S/view?usp=sharing"
                             target="_blank">three rewards</a> <br> in the <a href="https://bootcamp.uw.edu/"
                             target="_blank">UW
-                            Coding Bootcamp</>.
+                            Coding Bootcamp</h5>.
                     </h5>
                 </div>
 
@@ -95,7 +96,7 @@
                             <div class="carousel-item active">
                                 <img src="assets/images/portfolio/pokemon-fight2.gif" class="d-block w-100"
                                     alt="pokemon-fight">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-none d-lg-block">
                                     <h3>
                                         <a href="https://andrewlin618.github.io/Pokemon-Fight/" target="_blank">Pokemon
                                             Fight</a> /
@@ -109,7 +110,7 @@
                             <div class="carousel-item">
                                 <img src="assets/images/portfolio/word-guess-game.png" class="d-block w-100"
                                     alt="word-guess-game">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-none d-lg-block">
                                     <h3>
                                         <a href="https://andrewlin618.github.io/Word-Guess-Game/" target="_blank">Word
                                             Guess Game</a> /
@@ -123,7 +124,7 @@
                             <div class="carousel-item">
                                 <img src="assets/images/portfolio/study-group.jpg" class="d-block w-100"
                                     alt="study-group">
-                                <div class="carousel-caption d-none d-md-block">
+                                <div class="carousel-caption d-none d-lg-block">
                                     <h3>
                                         <a href="https://andrewlin618.github.io/Study-Group/"
                                             target="_blank">Study-Group</a> /
@@ -155,13 +156,13 @@
                     </h1>
                     <h5 class="grow-text">Use any of the followings to contact me.</h5>
                     <br><br>
-                    <h5 class="grow-text">Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a
+                    <h5 class="grow-text">Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br class="br1"><a
                             href="mailto:andrewlin618@gmail.com" target="_blank">andrewlin618@gmail.com</a></h5>
-                    <h5 class="grow-text">Phone: &nbsp&nbsp&nbsp&nbsp&nbsp<a href="tel:206-886-9131">206-886-9131</a>
+                    <h5 class="grow-text">Phone: &nbsp&nbsp&nbsp&nbsp&nbsp<br class="br1"><a href="tel:206-886-9131">206-886-9131</a>
                     </h5>
-                    <h5 class="grow-text">Github: &nbsp&nbsp&nbsp&nbsp<a href="https://github.com/andrewlin618"
+                    <h5 class="grow-text">Github: &nbsp&nbsp&nbsp&nbsp<br class="br1"><a href="https://github.com/andrewlin618"
                             target="_blank">github.com/andrewlin618</a></h5>
-                    <h5 class="grow-text">LinkedIn: &nbsp<a href="https://linkedin.com/in/andrewlin618"
+                    <h5 class="grow-text">LinkedIn: &nbsp<br class="br1"><a href="https://linkedin.com/in/andrewlin618"
                             target="_blank">linkedin.com/in/andrewlin618</a></h5>
                 </div>
 
@@ -170,16 +171,17 @@
                     <h1 class="display-3 grow-text"><a href="https://drive.google.com/file/d/1g6ODVK8GGckYyokghM_oMeCNHi9cUmfF/view?usp=sharing" target="_blank">My
                             Resume</a>
                     </h1>
-                    <h5 class="grow-text">You might need to run flash if you are using google chrome.</h5>
-                    <br>
-                    <embed src="assets/files/Andrew's Resume.pdf" width="700px" height="480px" />
+                    <h5 id="resume-text1" class="grow-text">You might need to run flash if you are using google chrome.</h5>
+                    <h5 id="resume-text2" class="grow-text">Click 'My resume' to download.</h5 id="resume-text1">
+                    <br><br>
+                    <embed id="resume" src="assets/files/Andrew's Resume.pdf" width="700px" height="480px">
                 </div>
             </div>
         </div>
 
         <!-- My Photo -->
-        <div class="col-md-6">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="col-lg-6">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <img id="my-photo" class="grow-img" src="assets/images/myPhoto.png" width="100%">
         </div>
     </main>
