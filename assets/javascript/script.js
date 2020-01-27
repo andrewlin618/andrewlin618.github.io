@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $(".btn").fadeIn(2000).removeClass('d-none');
-    $("#launch-page").fadeIn(2000);
+    $(".btn").fadeIn(200).removeClass('d-none');
+    $("#launch-page").fadeIn(500);
 });
 
 var openPage = 0;
@@ -22,23 +22,23 @@ $("#my-photo").click(function () {
         case 0:
             break;
         case 1:
-            $("#about-me-page").fadeOut(500, function () {
-                $("#launch-page").fadeIn(2000);
+            $("#about-me-page").fadeOut(200, function () {
+                $("#launch-page").fadeIn(500);
             });
             break;
         case 2:
-            $("#portfolio-page").fadeOut(500, function () {
-                $("#launch-page").fadeIn(2000);
+            $("#portfolio-page").fadeOut(200, function () {
+                $("#launch-page").fadeIn(500);
             });
             break;
         case 3:
-            $("#contact-page").fadeOut(500, function () {
-                $("#launch-page").fadeIn(2000);
+            $("#contact-page").fadeOut(200, function () {
+                $("#launch-page").fadeIn(500);
             });
             break;
         case 3:
-            $("#resume-page").fadeOut(500, function () {
-                $("#launch-page").fadeIn(2000);
+            $("#resume-page").fadeOut(200, function () {
+                $("#launch-page").fadeIn(500);
             });
             break;
     }
@@ -55,25 +55,25 @@ $("#btn1").click(function () {
 
     switch (index) {
         case 0:
-            $("#launch-page").fadeOut(500, function () {
-                $("#about-me-page").fadeIn(2000);
+            $("#launch-page").fadeOut(200, function () {
+                $("#about-me-page").fadeIn(500);
             });
             break;
         case 1:
             break;
         case 2:
-            $("#portfolio-page").fadeOut(500, function () {
-                $("#about-me-page").fadeIn(2000);
+            $("#portfolio-page").fadeOut(200, function () {
+                $("#about-me-page").fadeIn(500);
             });
             break;
         case 3:
-            $("#contact-page").fadeOut(500, function () {
-                $("#about-me-page").fadeIn(2000);
+            $("#contact-page").fadeOut(200, function () {
+                $("#about-me-page").fadeIn(500);
             });
             break;
         case 4:
-            $("#resume-page").fadeOut(500, function () {
-                $("#about-me-page").fadeIn(2000);
+            $("#resume-page").fadeOut(200, function () {
+                $("#about-me-page").fadeIn(500);
             });
             break;
     }
@@ -90,25 +90,25 @@ $("#btn2").click(function () {
 
     switch (index) {
         case 0:
-            $("#launch-page").fadeOut(500, function () {
-                $("#portfolio-page").fadeIn(2000);
+            $("#launch-page").fadeOut(200, function () {
+                $("#portfolio-page").fadeIn(500);
             });
             break;
         case 1:
-            $("#about-me-page").fadeOut(500, function () {
-                $("#portfolio-page").fadeIn(2000);
+            $("#about-me-page").fadeOut(200, function () {
+                $("#portfolio-page").fadeIn(500);
             });
             break;
         case 2:
             break;
         case 3:
-            $("#contact-page").fadeOut(500, function () {
-                $("#portfolio-page").fadeIn(2000);
+            $("#contact-page").fadeOut(200, function () {
+                $("#portfolio-page").fadeIn(500);
             });
             break;
         case 4:
-            $("#resume-page").fadeOut(500, function () {
-                $("#portfolio-page").fadeIn(2000);
+            $("#resume-page").fadeOut(200, function () {
+                $("#portfolio-page").fadeIn(500);
             });
             break;
     }
@@ -124,25 +124,25 @@ $("#btn3").click(function () {
 
     switch (index) {
         case 0:
-            $("#launch-page").fadeOut(500, function () {
-                $("#contact-page").fadeIn(2000);
+            $("#launch-page").fadeOut(200, function () {
+                $("#contact-page").fadeIn(500);
             });
             break;
         case 1:
-            $("#about-me-page").fadeOut(500, function () {
-                $("#contact-page").fadeIn(2000);
+            $("#about-me-page").fadeOut(200, function () {
+                $("#contact-page").fadeIn(500);
             });
             break;
         case 2:
-            $("#portfolio-page").fadeOut(500, function () {
-                $("#contact-page").fadeIn(2000);
+            $("#portfolio-page").fadeOut(200, function () {
+                $("#contact-page").fadeIn(500);
             });
             break;
         case 3:
             break;
         case 4:
-            $("#resume-page").fadeOut(500, function () {
-                $("#contact-page").fadeIn(2000);
+            $("#resume-page").fadeOut(200, function () {
+                $("#contact-page").fadeIn(500);
             });
             break;
     }
@@ -159,23 +159,23 @@ $("#btn4").click(function () {
 
     switch (index) {
         case 0:
-            $("#launch-page").fadeOut(500, function () {
-                $("#resume-page").fadeIn(2000);
+            $("#launch-page").fadeOut(200, function () {
+                $("#resume-page").fadeIn(500);
             });
             break;
         case 1:
-            $("#about-me-page").fadeOut(500, function () {
-                $("#resume-page").fadeIn(2000);
+            $("#about-me-page").fadeOut(200, function () {
+                $("#resume-page").fadeIn(500);
             });
             break;
         case 2:
-            $("#portfolio-page").fadeOut(500, function () {
-                $("#resume-page").fadeIn(2000);
+            $("#portfolio-page").fadeOut(200, function () {
+                $("#resume-page").fadeIn(500);
             });
             break;
-        case 5:
-            $("#contact-page").fadeOut(500, function () {
-                $("#resume-page").fadeIn(2000);
+        case 3:
+            $("#contact-page").fadeOut(200, function () {
+                $("#resume-page").fadeIn(500);
             });
             break;
         case 4:
