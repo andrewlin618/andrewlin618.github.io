@@ -10,24 +10,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/b94ef5c2d9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <main class="row">
         <div class="col-md-6">
+            <!-- Buttons -->
+            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                <button id="btn1" type="button" class="btn btn-dark d-none">About Me</button>
+                <button id="btn2" type="button" class="btn btn-dark d-none">Portfolio</button>
+                <button id="btn3" type="button" class="btn btn-dark d-none">Contact</button>
+            </div>
+
+            <!-- All pages: -->
             <div id="container" class="m-5">
-                <br>
-                
+
                 <!-- Launch page -->
-                <div id="launch-page">
-                    <br><br><br><br><br><br>
-                    <h1 class="display-1" style="font-weight: bold;">WELCOME TO MY HOMEPAGE</h1>
+                <div id="launch-page" style="display: none;">
+                    <br><br><br><br><br>
+                    <h1 class="display-1 grow-text" style="font-weight: bold;">WELCOME TO MY HOMEPAGE</h1>
                 </div>
 
-
                 <!-- About me page: -->
-                <div id="about-me-page" class="d-none">
+                <div id="about-me-page" style="display: none;" class="pages">
                     <h1 class="display-3 grow-text"><a href="https://linkedin.com/in/andrewlin618"
                             target="_blank">Andrew
                             Lin</a>
@@ -73,7 +78,7 @@
 
 
                 <!-- Portfolio page: -->
-                <div id="portfolio-page" class="d-none">
+                <div id="portfolio-page" style="display: none;" class="pages">
                     <h1 class="display-3 grow-text"><a href="https://github.com/andrewlin618" target="_blank">My
                             Projects</a>
                     </h1>
@@ -140,46 +145,36 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                    <br>
                 </div>
 
                 <!-- Contact page: -->
-                <div id="contact-page" class="d-none">
+                <div id="contact-page" style="display: none;" class="pages">
                     <h1 class="display-3 grow-text"><a href="https://github.com/andrewlin618" target="_blank">Contact
                             Me</a>
                     </h1>
                     <h5 class="grow-text">Use any of the followings to contact me.</h5>
                     <br><br>
-                    <h5 class="grow-text"><i class="far fa-envelope"></i> My email: <a
-                            href="mailto: andrewlin618@gmail.com" target="_blank">andrewlin618@gmail.com</a></h5>
-                    <h5 class="grow-text"> <i class="fas fa-mobile-alt"> </i> My Phone: <a>206-886-9131</a></h5>
-                    <h5 class="grow-text"><i class="fab fa-github"></i></i> Github: <a
-                            href="https://github.com/andrewlin618" target="_blank">github.com/andrewlin618</a></h5>
-
+                    <h5 class="grow-text">Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a
+                            href="mailto:andrewlin618@gmail.com" target="_blank">andrewlin618@gmail.com</a></h5>
+                    <h5 class="grow-text">Phone: &nbsp&nbsp&nbsp&nbsp&nbsp<a href="tel:206-886-9131">206-886-9131</a>
+                    </h5>
+                    <h5 class="grow-text">Github: &nbsp&nbsp&nbsp&nbsp<a href="https://github.com/andrewlin618"
+                            target="_blank">github.com/andrewlin618</a></h5>
+                    <h5 class="grow-text">LinkedIn: &nbsp<a href="https://linkedin.com/in/andrewlin618"
+                            target="_blank">linkedin.com/in/andrewlin618</a></h5>
                 </div>
-
-                <!-- Buttons -->
-                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                    <button id="btn1" type="button" class="btn btn-dark">About Me</button>
-                    <button id="btn2" type="button" class="btn btn-dark">Portfolio</button>
-                    <button id="btn3" type="button" class="btn btn-dark">Contact</button>
-                </div>
-
             </div>
         </div>
 
         <!-- My Photo -->
         <div class="col-md-6">
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <a href="https://linkedin.com/in/andrewlin618" target="_blank">
-                <img id="my-photo" class="grow-img" src="assets/images/myPhoto.png" width="100%">
-            </a>
+            <img id="my-photo" class="grow-img" src="assets/images/myPhoto.png" width="100%">
         </div>
     </main>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
     </script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
@@ -188,5 +183,6 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
 <script src="assets/javascript/script.js"></script>
+
 
 </html>

@@ -30,7 +30,7 @@ main {
 
 .grow-text:hover{
   /* transform: scale(1.3); */
-  margin-left:30px;
+  margin-left:50px;
 }
 
 .grow-img{
@@ -72,11 +72,5 @@ a:hover {
 }
 
 #container{
-  min-height:100vh;
-}
-
-.btn-group{
-  position: fixed;
-  top: 0px;
-  /* opacity: 0.5; */
+  min-height:80vh;
 }
