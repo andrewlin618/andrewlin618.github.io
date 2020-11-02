@@ -88,6 +88,7 @@ a:hover {
 
   .grow-text {
     transition: all .3s ease-in-out;
+    max-width: 35rem;
   }
   
   .grow-text:hover {
